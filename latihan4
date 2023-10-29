@@ -1,0 +1,21 @@
+##Program Menghitung Volume Balok
+#Cara menjalankan programnya menggunakan CMD
+#
+1. buka file tempat menyimpan file java tersebut
+2. ketik cmd pada alamat direktori file 
+3. ketik java volumeBalok.java
+4. masukkan inputan panjang, lebar, dan tinggi
+5. akan menampilkan volume balok 
+#
+#Cara menjalankan programnya dengan intellij
+#
+1. buka intellij 
+2. open file java yang ingin dijalankan
+3. klik kanan pada main.java 
+4. klik run file
+5. masukkan inputan lalu akan menampilkan volume baloknya
+#
+#Saya membuat program java menghitung volume balok, dimana untuk nilai panjang, lebar, dan tinggi akan meminta inputan dari user. Dalam program tersebut terdapat 2 method, yaitu method hitungRumus() dan method main(). Untuk method hitungRumus, memiliki 3 parameter  
+untuk menyimpan nilai dari panjang, lebar, dan tinggi yaitu p,l, dan t dengan tipe datanya double. Method hitungRumus digunakan untuk menghitung volume balok yang dimana sudah terdapat rumus volume balok dan akan mengoutputkan hasil dari volume tersebut.
+Pada method main() digunakann untuk menjalankan programnya. dalam method main terdapat objek, inputan user, dan pemanggilan method hitungRumus.
+#Pada program terseubt, ada dokumetasi untuk membuat kode lebih mudah dibaca. pendokumentasiannya menggunakan javaDoc seperti @params, @author, @return, dan lain-lain. 
