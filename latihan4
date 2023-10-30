@@ -1,3 +1,9 @@
+#Pada file Main.java terdapat program kalkulator sederhana yaitu tambah, kurang, kali, dan bagi. Proses runningnya yaitu:
+1. Menggunakan 2 variabel yaitu a dan b
+2. Mengisi nilai pada a dan b
+3. Lalu program akan menghitung prosesnya
+4. Program akan menampilkan hasil
+#
 ##Program Menghitung Volume Balok
 #Cara menjalankan programnya menggunakan CMD
 #
@@ -18,4 +24,15 @@
 #Saya membuat program java menghitung volume balok, dimana untuk nilai panjang, lebar, dan tinggi akan meminta inputan dari user. Dalam program tersebut terdapat 2 method, yaitu method hitungRumus() dan method main(). Untuk method hitungRumus, memiliki 3 parameter  
 untuk menyimpan nilai dari panjang, lebar, dan tinggi yaitu p,l, dan t dengan tipe datanya double. Method hitungRumus digunakan untuk menghitung volume balok yang dimana sudah terdapat rumus volume balok dan akan mengoutputkan hasil dari volume tersebut.
 Pada method main() digunakann untuk menjalankan programnya. dalam method main terdapat objek, inputan user, dan pemanggilan method hitungRumus.
+#
 #Pada program terseubt, ada dokumetasi untuk membuat kode lebih mudah dibaca. pendokumentasiannya menggunakan javaDoc seperti @params, @author, @return, dan lain-lain. 
+Untuk melakukan push file ke github saya menggunakan git bash. Langkah-langkah nya adalah:
+1. Buka direktori tempat file disimpan
+2. Klik kanan pada file tersebut, klik git bash here
+3. Akan muncul seperti command prompt, ketik git init
+4. Ketik git status untuk mengecek file yang akan dipush
+5. Ketik git add volumeBalok.java atau bisa menggunakan git add .
+6. Ketik git commit -m "first commit"
+7. Ketik git remote add origin <url repository github>
+8. Ketik git push -u origin master
+9. Refresh pada github, maka akan muncul file tersebut
